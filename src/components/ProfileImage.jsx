@@ -1,6 +1,6 @@
-function ProfileImage(props) {
+const ProfileImage = ({image}) => {
     return (
-        <img src={props.image} className="profile" alt="profile" />
+        <img src={image} className="profile" alt="profile" />
     );
 }
 
